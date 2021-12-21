@@ -1,0 +1,169 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+/* nav-container, image1, list-container, a1,.......footer-container, footer1, image2, copyrights
+    span1,  */
+
+.nav-container{
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    top: 0px;
+    position: sticky;
+}
+.image1{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+.list-container,.a1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+}
+.a1{
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'roboto';
+}
+footer{
+    background-color: rgb(56, 104, 192);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.image2{
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px black;
+    background-color: white;
+}
+.footer1{
+    color: white;
+    font-weight: bold;
+}
+
+.copyrights{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.span1{
+    margin-left: 5px;
+}
+
+.top-sec{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    position: fixed;
+}
+.top-image{
+    height: 40px;
+    width: 40px;
+    padding-left: 3px;
+    /* transition-duration: 3s; */
+}
+.top-btn{
+    background-color: yellow;
+    padding: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 50px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.top-btn:hover{
+    padding-left: 70px;
+    transition-duration: 1s;
+}
+
+/*  About us CSS */
+
+
+.div-1{
+    background-color: rgb(243, 204, 142);
+    padding: 20px;
+    margin: 30px;
+    font-size: 23px;
+    font-style: oblique;
+    border-radius: 15px;
+    border: red 3px solid;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.info-div{
+    display: flex;
+}
+.person-image{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    margin-right: 10px;
+    border-radius: 60px;
+}
+.person-head{
+    color: blue;
+    font-size: 22px;
+}
+.about-image{
+    margin: 30px;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px blue;
+    background-color: white;
+    margin-left: 100px;
+}
+.founder-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sub-card-founder-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(black,red);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 300px;
+    border: 1px black solid;
+    color: white;
+}
+.sub-card-founder-container:hover{
+    border: 2px red solid;
+    box-shadow: rgb(143, 238, 0) 10px 10px 10px;
+}
+.founder-name{
+    align-self: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.advisor-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.founder-head{
+    text-align: center;
+    font-size: 45px;
+    color: blue;
+}
+.footer-anchor{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Request call</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="put imp">
+        <meta name="author" content="put name of the name">
+        <meta name="description" content="one line description">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link rel="stylesheet" href="requestsamp.css">
+        <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+        </head>
+        <style>
+            .error{
+                color: red;
+                font-size: 15px;
+            }
+        </style>
+    <body>
+        <header>
+            <nav class="nav-container">
+                <div>
+                    <img src="https://www.logolynx.com/images/logolynx/ed/ed81d3eef3898f5a273320bfb5405c9b.jpeg" alt="learners image" class="image1"/>
+                </div>
+                <div class="list-container">
+                    <a class="a1" href="home.html">Home</a>
+                    <a class="a1" href="requestsamp.html">Request Call</a>
+                    <a class="a1" href="aboutsamp.html">About us</a>
+                    <a class="a1" href="queriessamp.html">Queries</a>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class="top-sec">
+                <a class="top-btn" href="home.html" title="Home"><img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" class="top-image"/></a>
+                <a class="top-btn" href="aboutsamp.html" title="About Us" ><img src="https://static.thenounproject.com/png/2940521-200.png" class="top-image"/></a>
+                <a class="top-btn" href="queriessamp.html" title="Queries"><img src="https://static.thenounproject.com/png/285656-200.png" class="top-image"/></a>
+            </div>
+        </section>
+
+        <div class="bg">
+            <h1 class="header3">Please fill this Form to Request Call</h1>
+            <form action="home.html" onsubmit="return validation()" novalidate>
+                <table>
+                    <tr>
+                        <td><label for="fname">Firstname</label></td>
+                        <td><input onblur="validate1()" id="fname" type="text" name="pname" placeholder="firstname"></td>
+                    </tr>
+                    <tr><td></td><td class="error" id="error1"></td></tr>
+                    <tr>
+                        <td><label for="mname">Middilename</label></td>
+                        <td><input id="mname" type="text" name="pname"  placeholder="middilename(optional)" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Lastname</label></td>
+                        <td><input onblur="validate3()" id="lname" type="text" name="pname" placeholder="lastname" ></td>
+                    </tr>
+                    <tr><td></td><td class="error" id="error3"></td></tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td>
+                            <input type="radio" name="gender" id="g1" onchange="validate4()"><label for="g1">Male</label>
+                            <input type="radio" name="gender" id="g2" onchange="validate4()"><label for="g2">Female</label>
+                            <input type="radio" name="gender" id="g3" onchange="validate4()"><label for="g3">Others</label>
+                        </td>
+                    </tr>
+                    <tr><td></td><td class="error" id="error4"></td></tr>
+                    <tr>
+                        <td><label for="date1">Date of Birth</label></td>
+                        <td><input type="date" id="date1" name="date" onchange="validate2()"></td>
+                    </tr>
+                    <tr><td></td><td class="error" id="error2"></td></tr>
+                    <tr>
+                        <td><label>Qualification</label></td>
+                        <td><input type="radio" id="btech" name="q" onchange="validate5()"><label>B-Tech</label>
+                            <input type="radio" id="mtech" name="q" onchange="validate5()"><label>M-Tech</label>
+                            <input type="radio" id="mba" name="q" onchange="validate5()"><label>M.B.A</label>
+                        </td>
+                    </tr> 
+                    <tr><td></td><td class="error" id="error5"></td></tr>
+                    <tr>
+                        <td><label >Mobile Number</label></td>
+                        <td><input onblur="validate6()" type="text" name="num" id="num1" minlength="1" maxlength="10" placeholder="9876543210" required></td>
+                    </tr>
+                    <tr><td></td><td class="error" id="error6"></td></tr>
+                    <tr>
+                        <td><label id="num1">Email</label></td>
+                        <td><input onblur="validate7()" type="email"  id="mail" placeholder="abc@gmail.com" required></td>
+                    </tr>
+                    <tr><td></td><td class="error" id="error7"></td></tr>
+                    <tr><td></td>
+                        <td><input type="submit" value="Request Call">
+                        <input type="reset" value="Clear"></td>
+                    </tr>
+                </table>
+            </form>
+            <p class="client-para">Our client representative will touch with you within short span of time</p>
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer1">
+                    <img src="https://www.skillnetireland.ie/wp-content/uploads/2018/04/Learning-Waves-Skillnet-200.png" alt="footer image" class="image2"/>
+                    <h3>Reach us</h3>
+                    <p>+91 9876543210</p>
+                    <p>(WhatsApp only)</p>
+                    <p>support@learners.tech</p>
+                </div>
+                <div class="footer1">
+                    <h2>Quick Links</h2>
+                    <p><a href="home.html" class="footer-anchor">Home</a></p>
+                    <p><a href="requestsamp.html" class="footer-anchor">Request Call</a></p>
+                    <p><a href="aboutsamp.html" class="footer-anchor">About Us</a></p>
+                    <p><a href="queriessamp.html" class="footer-anchor">Queries</a></p>
+                </div>
+                <div class="footer1">
+                    <h2>Payment methods</h2>
+                    <div>
+                        <i class="fab fa-cc-visa" style="font-size: 50px;"></i>
+                        <i class="fab fa-cc-mastercard" style="font-size: 50px;"></i>
+                        <i class="fab fa-cc-paypal" style="font-size: 50px;"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-cc-apple-pay" style="font-size: 50px;"></i>
+                        <i class="fab fa-cc-amazon-pay" style="font-size: 50px;"></i>
+                        <i class="fab fa-cc-stripe" style="font-size: 50px;"></i>
+                    </div>
+                    <h2>Address</h2>
+                    <pre>Plot No. 30, East Wing,Ground
+    Floor, Financial District,
+    Sarepali,Visakhapatnam,
+    Andhra Pradesh-530008
+                    </pre>
+                </div>
+                </div>
+                <hr>
+                <div class="copyrights">
+                    <i class="far fa-copyright"></i>
+                    <span class="span1">CopyRights Reserved</span>
+                </div>
+            </footer>
+            <script src="requestsamp.js"></script>
+    </body>
+</html>

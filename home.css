@@ -1,0 +1,306 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+/* nav-container, image1, list-container, a1,.......footer-container, footer1, image2, copyrights
+    span1,  */
+
+.nav-container{
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    top: 0px;
+    position: sticky;
+}
+.image1{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+.list-container,.a1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+}
+.a1{
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'roboto';
+}
+footer{
+    background-color: rgb(56, 104, 192);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.image2{
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px black;
+    background-color: white;
+}
+.footer1{
+    color: white;
+    font-weight: bold;
+}
+
+.copyrights{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.span1{
+    margin-left: 5px;
+}
+
+/* Home CSS */
+.big-head{
+    color: red;
+    font-style: cursive;
+    font-size: 200px;
+    text-align: center;
+    text-shadow: yellow 10px 10px 20px;
+}
+.span3{
+    background-color: red;
+    color: black;
+    padding: 5px;
+}
+
+.company-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.company-images{
+    height: 80px;
+    width: 130px;
+    margin: 40px;
+}
+.company-head{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.span-head{
+    color: red;
+}
+.company-para{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.quotes-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+.sub-quotes-container{
+    background-image: linear-gradient(black,rgb(0, 253, 13));
+    border: white 2px solid;
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.sub-quotes-container:hover{
+    border: rgb(21, 255, 0) 3px solid;
+    box-shadow: rgb(2, 225, 255) 10px 20px 20px ;
+}
+.quotes-para{
+    align-self: flex-end;
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: 3px solid red;
+}
+.head-image{
+    height: 300px;
+    height: 300px;
+    align-self: center;
+}
+.card-container1{
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 30px 30px 30px red;
+    display: flex;
+    flex-direction: column;
+}
+.head1{
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    font-family: fantasy;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 350px;
+    margin-left: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(233, 126, 126);
+}
+.span2{
+    color: red;
+    font-weight: bold;
+}
+ol>.l1{
+    margin: 5px;
+    font-size: 20px;
+}
+.l1:hover{
+    font-size: 27px;
+    font-weight: bold;
+    padding-left: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+.p1{
+    font-size: 20px;
+}
+.p1::first-letter{
+    font-size: 50px;
+    columns: red;
+}
+.sub-cards-container{
+    display: flex;
+    justify-content: center;
+}
+.sub-cards{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 3px greenyellow solid;
+    border-radius: 20px;
+    margin: 20px;
+    width: 300px;
+    background-color: transparent;
+    box-shadow: 10px 10px 10px greenyellow;
+    color: white;
+}
+.sub-cards:hover{
+    border: red 3px solid;
+    box-shadow: 10px 10px 10px red;
+}
+.card-images{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    align-self: center;
+}
+.calls{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.button1{
+    background-color: blue;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.button1>a{
+    color: white;
+    text-decoration: none;
+}
+.button1:hover{
+    box-shadow: 5px 5px 5px rgb(0, 255, 255);
+    background-color: rgb(43, 43, 231);
+}
+.top-sec{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    position: fixed;
+}
+.top-image{
+    height: 40px;
+    width: 40px;
+    padding-left: 3px;
+}
+.top-btn{
+    background-color: yellow;
+    padding: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 50px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.top-btn:hover{
+    padding-left: 70px;
+    transition-duration: 1s;
+}
+.videos-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+iframe{
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px greenyellow;
+    border: greenyellow 2px solid;
+}
+iframe:hover{
+    box-shadow: 10px 10px 10px red;
+    border: red 2px solid;
+}
+.video-head{
+    color: white;
+    font-size: 40px;
+    margin-left: 30px;
+}
+.footer-anchor{
+    text-decoration: none;
+    color: white;
+}
+details{
+    margin-bottom: 15px;
+    font-style: italic;
+}
+summary{
+    color: blue;
+    font-weight: bold;
+}
+.details-para{
+    border:blue 2px solid;
+    padding:10px;
+    border-radius: 10px;
+    font-family: roboto;
+}
+.details-para:hover{
+    border: red 2px solid;
+}

@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+/* nav-container, image1, list-container, a1,.......footer-container, footer1, image2, copyrights
+    span1,  */
+
+.nav-container{
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    top: 0px;
+    position: sticky;
+}
+.image1{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+.list-container,.a1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+}
+.a1{
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'roboto';
+}
+footer{
+    background-color: rgb(56, 104, 192);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.image2{
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px black;
+    background-color: white;
+}
+.footer1{
+    color: white;
+    font-weight: bold;
+}
+
+.copyrights{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.span1{
+    margin-left: 5px;
+}
+.top-sec{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    position: fixed;
+}
+.top-image{
+    height: 40px;
+    width: 40px;
+    padding-left: 3px;
+    /* transition-duration: 3s; */
+}
+.top-btn{
+    background-color: yellow;
+    padding: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 50px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.top-btn:hover{
+    padding-left: 70px;
+    transition-duration: 1s;
+}
+
+
+/* Request Call CSS */
+
+
+.header3{
+    text-shadow: black 5px 15px 17px;
+    margin-bottom: 40px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+}
+table{
+    border-radius: 10px;
+    padding: 20px;
+    border: black 2px solid;
+    box-shadow: black -0px 10px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(90, 90, 255),rgb(236, 236, 107));
+
+}
+form{
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+[type='submit']{
+    background: blue;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 10px;
+}
+[type="reset"]{
+    background: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 10px;
+}
+.bg{
+    margin-bottom: 40px;
+}
+label{
+    color: black;
+}
+.client-para{
+    color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.footer-anchor{
+    text-decoration: none;
+    color: white;
+}
